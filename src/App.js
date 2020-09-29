@@ -1,24 +1,40 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {useEffect, useState} from 'react';
+import AllGames from './views/allGames'
+import GameDetails from './views/GameDetails'
+
+
 import './App.css';
+import {Router, Link, navigate} from '@reach/router'
+import Axios from 'axios';
+
+
+
 
 function App() {
+  const [game, setGame]=useState([])
+  const [search, setSearch]=useState([])
+  
+  
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+       {/* <form >
+      <label>Search by: </label>
+            <select name="searchBy">
+              <option value="title">Title</option>
+              <option value="genre">Genre</option>
+              <option value="rating">Rating</option>
+            </select>
+            <input type="text" onChange={e=>setSearch(e.target.value)}/>
+            <button  >Search!</button>
+      </form> */}
+      
+            <Router>
+              <AllGames path="/" game={game}/>
+              <GameDetails path="/details/:id"/>
+              
+            </Router>
     </div>
   );
 }

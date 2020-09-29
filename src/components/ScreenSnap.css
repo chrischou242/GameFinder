@@ -1,0 +1,26 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.imgs{
+  width: 400px;
+  margin: auto;
+}
+
+
+.screenshot{
+  margin: 10px;
+  display: inline-block;
+  border: 5px solid silver;
+}
+
+.screenshot img{
+  
+  width: 150px;
+  margin: -1px -1px -5px -1px;
+}
+
+.screenshot:hover{
+  transform: scale(2.5);
+}

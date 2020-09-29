@@ -1,0 +1,192 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.container{
+  background-color: #272822;
+  padding: 10px;
+  min-height: 2000px;
+}
+
+.detailTitle{
+  color: lime;
+  font-style: oblique;
+  margin: 10px 0px;
+}
+
+.home{
+  border: 2px solid lime;
+  border-radius: 10px;
+  width: 50px;
+  text-align: center;
+  margin: auto;
+  display: block;
+  padding: 11px;
+  text-decoration: none;
+  color: silver;
+}
+
+.goldrating {
+  color: gold;
+  font-weight: 1000;
+}
+
+.bluerating {
+  color: #aad4e5;
+  font-weight: 100;
+}
+
+.rating{
+  color: lime;
+}
+
+.rateHead{
+  margin-top: 10px;
+  color: silver;
+}
+
+img.imgRating{
+  width:30px;
+  vertical-align: middle;
+}
+
+
+.gameImg{
+  margin: 20px;
+  border: 5px solid silver;
+}
+
+.release{
+  color: white;
+  margin: 10px;
+}
+  .release .date{
+    color: lime;
+  }
+
+.avail{
+  color: white;
+  margin-bottom: 5px;
+}
+
+a.stores{
+  margin: 0px 5px 5px 0px;
+  padding: 1px 10px;
+  border-left: 1px solid Lime;
+  border-right: 1px solid Lime;
+  text-decoration: none;
+  color: white;
+}
+
+.gameInfo{
+  background-color: #333333;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  border: 5px solid black;
+  justify-content:space-around;
+}
+
+  .desc{
+    width: 50%;
+    padding-right: 20px;
+    text-align: left;
+    color: silver;
+    border-right: 2px solid lime;
+  }
+
+    .desc h3, th{
+      text-align: center;
+      color: lime;
+      margin-bottom: 10px;
+    }
+
+    .content{
+      width:50%;
+    }
+
+      .content .genPlat{
+        border-top: 2px solid lime;
+
+        margin-left: 15px;
+        display: flex;
+        justify-content: space-evenly;
+      }
+
+        .genre{
+          margin: 10px;
+          border-right: 2px solid lime;
+          width: 50%;
+        }
+
+        .plat{
+          margin: 10px;
+          width: 50%;
+          border-left: 2px solid lime;
+
+        }
+
+      .content .pubDev{
+        border-top: 2px solid lime;
+        margin-top: 20px;
+        margin-left: 15px;
+        padding-top: 10px;
+        display:flex;
+        justify-content: space-evenly;
+      }
+
+        .pub{
+          margin: 10px;
+          width:50%;
+          border-right: 2px solid lime;
+
+        }
+
+        .dev{
+          margin: 10px;
+          width:50%;
+          border-left: 2px solid lime;
+
+        }
+
+        video{
+          border: 5px solid silver;
+        }
+
+        .video h2{
+          color: lime;
+          font-style: oblique;
+          margin: 5px;
+        }
+
+        .sadCat{
+          width: 300px;
+          margin: 50px 50px;
+          border: 5px solid silver;
+        }
+
+        .shots h2{
+          color: lime;
+          font-style: oblique;
+          margin: 5px;
+        }
+
+        .allpics{
+          background-color: #333333;
+          margin: 20px;
+          padding: 20px;
+          display: flex;
+          border: 5px solid black;
+          justify-content:space-around;
+          justify-content: space-evenly;
+          align-items: center;
+        }
+
+        /* .video{
+          display: inline-block;
+        }
+
+        .shots{
+          display: inline-block;
+        } */
